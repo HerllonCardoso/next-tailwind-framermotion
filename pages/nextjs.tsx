@@ -4,7 +4,7 @@ import Link from "next/link";
 const NextPage: React.FC = () => {
   return (
     <div className="flex flex-col items-center">
-      <motion.img src="/img/nextjs.svg" layoutId="next-js-logo" />
+      <motion.img src="/img/nextjs.svg" layoutId="nextjs-logo" />
 
       <motion.div
         initial={{ opacity: 0 }}
